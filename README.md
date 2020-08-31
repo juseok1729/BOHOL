@@ -2,4 +2,4 @@
 #BOHOL #Philippines #Scuba diving #Sea ecology #App #Flask
 
 ## mAP (mean average precision)
-<p align="left"><img src="/mAP/6.PNG" width="520"\></p>
+<p align="left"><img src="/mAP/7.PNG" width="520"\></p>
