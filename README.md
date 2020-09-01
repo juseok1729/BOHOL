@@ -9,9 +9,12 @@ Download : https://drive.google.com/file/d/1-L5U2JCJG73HMfHJNIBsK9123N1yaHqf/vie
 python save_model.py --weights ./data/yolov4-obj_best.weights --output ./checkpoints/bohol-416 --input_size 416 --model yolov4
 ```
 
-## Classes = 16
+## Dataset Statistics
+created a 16 category saltwater fish dataset with roughly 200 images for each class.  
+16개의 클래스, 클래스 별 약 200장의 이미지를 라벨링 했습니다.
+거북이가 좀 많아요.
 
-Class_id  |                 Name                | images |
+Class_id  |                 Name                | Count |
 --------- | :---------------------------------: | :----: |
 0         |      Green_sea_turtle               | 630 |
 1         |      Anthias                        | 287 |
@@ -29,7 +32,7 @@ Class_id  |                 Name                | images |
 13        |      Three_stripes_damsel           | 271 |
 14        |      Tomato_clown                   | 193 |
 15        |      Yellow_boxfish                 | 308 |
-▶        |      Total                   | 4476 |
+　        |      Total                   | 4476 |
 ## mAP (mean average precision)
 <p align="left"><img src="/mAP/7.PNG" width="520"\></p>
 
