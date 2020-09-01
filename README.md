@@ -81,7 +81,7 @@ python detect_video.py --weights ./checkpoints/bohol-416 --size 416 --model yolo
   <img src="/detection/7.gif" width="440"/>
 </p>
 
-<p align="left">
+<p align="center">
   <img src="/detection/8.gif" width="440"/>
   <img src="/detection/9.gif" width="440"/>
 </p>
