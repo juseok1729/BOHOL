@@ -25,7 +25,7 @@ Class_id  |                 Name                | images |
 13        |      Three_stripes_damsel           | 271 |
 14        |      Tomato_clown                   | 193 |
 15        |      Yellow_boxfish                 | 308 |
-00        |      total images                   | 4476|
+▶        |      Total                   | 4476 |
 ## mAP (mean average precision)
 <p align="left"><img src="/mAP/7.PNG" width="520"\></p>
 
