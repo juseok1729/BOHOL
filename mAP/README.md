@@ -31,11 +31,11 @@ score threshold = 0.1 인 경우, 영상 전체에서 후보 박스가 가득 �
 score threshold = 0.99 인 경우, 오브젝트가 있는게 확실한 후보만 남는다.  
 #
 ## 결과
-#### score threshold 가 크면 총 후보의 수가 줄어들고 확실한 후보만 남는다.**  
+#### score threshold 가 크면 총 후보의 수가 줄어들고 확실한 후보만 남는다.  
 후보의 수가 줄어들었으므로 성능면에서 Recall은 낮아지며,  
 확실한 후보들은 정답일 확률이 높으므로 Precision 이 높아진다.    
 
-#### score threshold 가 낮으면 총 후보 경계박스들이 많이 남는다.**  
+#### score threshold 가 낮으면 총 후보 경계박스들이 많이 남는다.  
 성능면에서 후보가 많으므로 Recall 은 높아지며,  
 확실하지 않은 후보가 많기 때문에 Precision 은 낮다.  
 
