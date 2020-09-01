@@ -3,8 +3,8 @@
 detector는 수많은 후보 경계박스를 제안하는데  
 이중, 가장 좋은 후보들을 2번에 걸쳐 선별한다.  
 
-1차로 기준 이상의 confidence 값을 갖는 후보를 선별한다. (score threshold)  
-2차로 NMS를 통해 중복되는 confidence가 낮은 후보들을 제거한다. (iou threshold)  
+**1차 : 기준 이상의 confidence 값을 갖는 후보를 선별한다. (score threshold)**  
+**2차 : NMS를 통해 중복되는 confidence가 낮은 후보들을 제거한다. (iou threshold)**  
 
 이 과정에서 사용되는 기준(Threshold) 하이퍼파라미터를 결정해야 하는데,  
 
