@@ -12,7 +12,7 @@ python save_model.py --weights ./data/yolov4-obj_best.weights --output ./checkpo
 ## Dataset Statistics
 created a 16 category saltwater fish dataset with roughly 200 images for each class.  
 16개의 클래스, 클래스 별 약 200장의 이미지 라벨링.  
-거북이가.. 많습니다.
+거북이 클래스 불균형..
 
 <p align="center">
   <img src="/classes/0.jpg" width="80"/>
