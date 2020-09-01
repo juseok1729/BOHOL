@@ -14,6 +14,28 @@ created a 16 category saltwater fish dataset with roughly 200 images for each cl
 16개의 클래스, 클래스 별 약 200장의 이미지 라벨링.  
 거북이가.. 많습니다.
 
+<p align="center">
+  <img src="/classes/0.jpg" width="80"/>
+  <img src="/classes/1.jpg" width="80"/>
+  <img src="/classes/2.jpg" width="80"/>
+  <img src="/classes/3.jpg" width="80"/>
+  <img src="/classes/4.jpg" width="80"/>
+  <img src="/classes/5.jpg" width="80"/>
+  <img src="/classes/6.jpg" width="80"/>
+  <img src="/classes/7.jpg" width="80"/>
+</p>
+
+<p align="center">
+  <img src="/classes/8.jpg" width="80"/>
+  <img src="/classes/9.jpg" width="80"/>
+  <img src="/classes/10.jpg" width="80"/>
+  <img src="/classes/11.jpg" width="80"/>
+  <img src="/classes/12.jpg" width="80"/>
+  <img src="/classes/13.jpg" width="80"/>
+  <img src="/classes/14.jpg" width="80"/>
+  <img src="/classes/15.jpg" width="80"/>
+</p>
+
 Class_id  |                 Name                | Count |
 --------- | :---------------------------------: | :----: |
 0         |      Green_sea_turtle               | 630 |
@@ -33,6 +55,7 @@ Class_id  |                 Name                | Count |
 14        |      Tomato_clown                   | 193 |
 15        |      Yellow_boxfish                 | 308 |
 　        |      Total                   | 4476 |
+  
 ## mAP (mean average precision)
 <p align="left"><img src="/mAP/7.PNG" width="520"\></p>
 
