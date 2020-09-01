@@ -11,6 +11,35 @@ Object detection 에서는 모델의 성능(정확도)을 주로 mean Average Pr
 - 검출해내야하는 물체들 중에서 제대로 검출된 것의 비율
 - Recall은 모델의 출력이 얼마나 Positive 값들을 잘 찾는지를 측정하는 것
 #
+
+<table class="tg">
+  <center>
+    <thead>
+      <tr>
+        <th class="tg-c3ow" rowspan="2">실측 정보<br>(ground truth)</th>
+        <th class="tg-c3ow" colspan="4">예측 결과 (predict result)</th>
+      </tr>
+      <tr>
+        <td class="tg-c3ow" colspan="2">Positive</td>
+        <td class="tg-c3ow" colspan="2">Negative</td>
+      </tr>
+    </thead>
+  <tbody>
+    <tr>
+      <td class="tg-c3ow">Positive</td>
+      <td class="tg-c3ow" colspan="2">TP<br><span style="font-weight:bold">옳은 검출</span></td>
+      <td class="tg-c3ow" colspan="2">FN<br><span style="font-weight:bold">검출되야 할 것이</span><br><span style="font-weight:bold">검출되지않음</span></td>
+    </tr>
+    <tr>
+      <td class="tg-c3ow">Negative</td>
+      <td class="tg-c3ow" colspan="2">FP<br><span style="font-weight:bold">틀린 검출</span></td>
+      <td class="tg-c3ow" colspan="2">TN<br><span style="font-weight:bold">검출되지 말아야 할 것이</span><br><span style="font-weight:bold">검출되지 않음</span></td>
+    </tr>
+  </tbody>
+  </center>
+</table>
+
+#
 ## **Threshold(하이퍼파라미터)**
 detector는 수많은 후보 경계박스를 제안하는데  
 이중, 가장 좋은 후보들을 2번에 걸쳐 선별한다.  
