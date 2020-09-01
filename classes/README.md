@@ -20,6 +20,7 @@
   <img src="/classes/14.jpg" width="80"/>
   <img src="/classes/15.jpg" width="80"/>
 </p>
+
 Class_id  |                 Name                | Count |
 --------- | :---------------------------------: | :----: |
 0         |      Green_sea_turtle (푸른바다거북)               | 630 |
