@@ -24,4 +24,4 @@ score threshold = 0.99 인 경우, 오브젝트가 있는게 확실한 후보만
 **score threshold 가 낮으면 총 후보 경계박스들이 많이 남는다.**  
 성능면에서 후보가 많으므로 Recall 은 높아지며, 확실하지 않은 후보가 많기 때문에 Precision 은 낮다.  
 
-**∴ score threshold 는 Recall 에 비례하며 Precision 에 반비례한다.**  
+**∴ score threshold 는 Recall 에 반비례하며 Precision 에 비례한다.**  
