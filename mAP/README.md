@@ -49,6 +49,11 @@ Object detection 에서는 모델의 성능(정확도)을 주로 [mean Average P
   - Recall = TP / (TP + FN)
     
 - Object detection의 관점에서 보면, Precision과 Recall은 다음과 같이 정의 된다.
+  ```
+  TP : 실제 객체들의 개수
+  TP + FP : 객체라고 판단 된 결과
+  TP + FN : 전체 객체들의 개수
+  ```
   - Precision = True detections / whole detections of an algorithm
   - Recall = detected TRUE / total number of existing TRUE
 
