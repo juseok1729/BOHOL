@@ -1,6 +1,6 @@
 # Custom-YOLO
 #BOHOL #Philippines #Scuba diving #Sea ecology #App #Flask
-<p align="center"><img src="/detection/blicasag.gif" width="600"\></p>
+<p align="center"><img src="/detection/balicasag.gif" width="600"\></p>
 
 ## My Custom weights
 Download : https://drive.google.com/file/d/1-L5U2JCJG73HMfHJNIBsK9123N1yaHqf/view
