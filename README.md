@@ -42,23 +42,23 @@ Class_id  |                 Name                | Count |
 python detect.py --weights ./checkpoints/bohol-416 --size 416 --model yolov4 --images ./data/images/img1.jpg
 ```
 <p align="center">
-  <img src="/detection/detection1.png" width="420"/>
-  <img src="/detection/detection2.png" width="420"/>
+  <img src="/detection/detection1.png" width="440"/>
+  <img src="/detection/detection2.png" width="440"/>
 </p>
 
 <p align="center">
-  <img src="/detection/detection3.png" width="420"/>
-  <img src="/detection/detection4.png" width="420"/>
+  <img src="/detection/detection3.png" width="440"/>
+  <img src="/detection/detection4.png" width="440"/>
 </p>
 
 <p align="center">
-  <img src="/detection/detection5.png" width="420"/>
-  <img src="/detection/detection6.png" width="420"/>
+  <img src="/detection/detection5.png" width="440"/>
+  <img src="/detection/detection6.png" width="440"/>
 </p>
 
 <p align="center">
-  <img src="/detection/detection7.png" width="420"/>
-  <img src="/detection/detection8.png" width="420"/>
+  <img src="/detection/detection7.png" width="440"/>
+  <img src="/detection/detection8.png" width="440"/>
 </p>
 
 ## **Test videos**
@@ -67,21 +67,21 @@ python detect.py --weights ./checkpoints/bohol-416 --size 416 --model yolov4 --i
 python detect_video.py --weights ./checkpoints/bohol-416 --size 416 --model yolov4 --video ./data/video/vid1.mp4 --output ./detections/best2/vid1.avi
 ```
 <p align="center">
-  <img src="/detection/2.gif" width="420"/>
-  <img src="/detection/3.gif" width="420"/>
+  <img src="/detection/2.gif" width="440"/>
+  <img src="/detection/3.gif" width="440"/>
 </p>
 
 <p align="center">
-  <img src="/detection/4.gif" width="420"/>
-  <img src="/detection/6.gif" width="420"/>
+  <img src="/detection/4.gif" width="440"/>
+  <img src="/detection/6.gif" width="440"/>
 </p>
 
 <p align="center">
-  <img src="/detection/5.gif" width="420"/>
-  <img src="/detection/7.gif" width="420"/>
+  <img src="/detection/5.gif" width="440"/>
+  <img src="/detection/7.gif" width="440"/>
 </p>
 
-<p align="center">
-  <img src="/detection/8.gif" width="420"/>
-  <img src="/detection/9.gif" width="420"/>
+<p align="left">
+  <img src="/detection/8.gif" width="440"/>
+  <img src="/detection/9.gif" width="440"/>
 </p>
