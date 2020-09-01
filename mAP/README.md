@@ -1,4 +1,13 @@
 # mAP(mean Average Precision) 이란?
+Object detection 에서는 모델의 성능(정확도)을 주로 mean Average Precision(mAP)를 통해 확인한다.
+mAP가 놓을수록 정확하고, 작을수록 부정확하다.
+
+## **Precision**
+- Precision은 모델의 출력이 얼마나 정확한지를 측정하는 것
+- 즉, 모델이 예측한 결과의 Positive 결과가 얼마나 정확한지를 나타내는 값
+
+## **Recall**
+- Recall은 모델의 출력이 얼마나 Positive 값들을 잘 찾는지를 측정하는 것
 
 detector는 수많은 후보 경계박스를 제안하는데  
 이중, 가장 좋은 후보들을 2번에 걸쳐 선별한다.  
@@ -8,8 +17,8 @@ detector는 수많은 후보 경계박스를 제안하는데
 
 이 과정에서 사용되는 기준(Threshold) 하이퍼파라미터를 결정해야 하는데,  
 
-1) Confidence Threshold (기준 신뢰도, objectness) = **score threshold**  
-2) IOU(Intersection Over Union) Threshold = **iou threshold**  
+1. Confidence Threshold (기준 신뢰도, objectness) = **score threshold**  
+2. IOU(Intersection Over Union) Threshold = **iou threshold**  
 
 보통, Confidence Threshold 값은 0.5로 해서 그 이하의 경계박스후보는 배경으로 간주해서 제거한다.  
 IOU Threshold는 Yolo의 경우 0.45인데    
