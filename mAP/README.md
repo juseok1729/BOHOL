@@ -1,13 +1,13 @@
 # mAP(mean Average Precision) 이란?
-Object detection 에서는 모델의 성능(정확도)을 주로 mean Average Precision(mAP)를 통해 확인한다.
+Object detection 에서는 모델의 성능(정확도)을 주로 mean Average Precision(mAP)를 통해 확인한다.  
 mAP가 놓을수록 정확하고, 작을수록 부정확하다.
 
-## **Precision(정밀도)**
+## **Precision (정밀도)**
 - 모든 검출 결과 중 옳게 검출한 비율
 - Precision은 모델의 출력이 얼마나 정확한지를 측정하는 것
 - 즉, 모델이 예측한 결과의 Positive 결과가 얼마나 정확한지를 나타내는 값
 
-## **Recall(재현율)**
+## **Recall (재현율)**
 - 검출해내야하는 물체들 중에서 제대로 검출된 것의 비율
 - Recall은 모델의 출력이 얼마나 Positive 값들을 잘 찾는지를 측정하는 것
 #
