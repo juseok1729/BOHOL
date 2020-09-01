@@ -4,6 +4,10 @@
 
 ## My Custom weights
 Download : https://drive.google.com/file/d/1-L5U2JCJG73HMfHJNIBsK9123N1yaHqf/view
+```bash
+# weights → tf
+python save_model.py --weights ./data/yolov4-obj_best.weights --output ./checkpoints/bohol-416 --input_size 416 --model yolov4
+```
 
 ## Classes = 16
 
@@ -31,6 +35,7 @@ Class_id  |                 Name                | images |
 
 ## **Test images**
 ```bash
+# image
 python detect.py --weights ./checkpoints/bohol-416 --size 416 --model yolov4 --images ./data/images/img1.jpg
 ```
 <p align="center">
@@ -54,6 +59,10 @@ python detect.py --weights ./checkpoints/bohol-416 --size 416 --model yolov4 --i
 </p>
 
 ## **Test videos**
+```bash
+# video
+python detect_video.py --weights ./checkpoints/bohol-416 --size 416 --model yolov4 --video ./data/video/vid1.mp4 --output ./detections/best2/vid1.avi
+```
 <p align="center">
   <img src="/detection/2.gif" width="440"/>
   <img src="/detection/3.gif" width="440"/>
