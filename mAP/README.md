@@ -13,30 +13,30 @@ Object detection 에서는 모델의 성능(정확도)을 주로 mean Average Pr
 #
 
 <table class="tg">
-  <center>
-    <thead>
-      <tr>
-        <th class="tg-c3ow" rowspan="2">실측 정보<br>(ground truth)</th>
-        <th class="tg-c3ow" colspan="4">예측 결과 (predict result)</th>
-      </tr>
-      <tr>
-        <td class="tg-c3ow" colspan="2">Positive</td>
-        <td class="tg-c3ow" colspan="2">Negative</td>
-      </tr>
-    </thead>
+  <thead>
+    <tr>
+      <th class="tg-c3ow" rowspan="2">실측 정보<br>(ground truth)</th>
+      <th class="tg-c3ow" colspan="4">예측 결과 (predict result)</th>
+    </tr>
+    <tr>
+      <center>
+        <th class="tg-c3ow" colspan="2">Positive</td>
+        <th class="tg-c3ow" colspan="2">Negative</td>
+      </center>
+    </tr>
+  </thead>
   <tbody>
     <tr>
-      <td class="tg-c3ow">Positive</td>
-      <td class="tg-c3ow" colspan="2">TP<br><span style="font-weight:bold">옳은 검출</span></td>
-      <td class="tg-c3ow" colspan="2">FN<br><span style="font-weight:bold">검출되야 할 것이</span><br><span style="font-weight:bold">검출되지않음</span></td>
+      <th class="tg-c3ow">Positive</td>
+      <th class="tg-c3ow" colspan="2">TP<br><span style="font-weight:bold">옳은 검출</span></td>
+      <th class="tg-c3ow" colspan="2">FN<br><span style="font-weight:bold">검출되야 할 것이</span><br><span style="font-weight:bold">검출되지않음</span></td>
     </tr>
     <tr>
-      <td class="tg-c3ow">Negative</td>
-      <td class="tg-c3ow" colspan="2">FP<br><span style="font-weight:bold">틀린 검출</span></td>
-      <td class="tg-c3ow" colspan="2">TN<br><span style="font-weight:bold">검출되지 말아야 할 것이</span><br><span style="font-weight:bold">검출되지 않음</span></td>
+      <th class="tg-c3ow">Negative</td>
+      <th class="tg-c3ow" colspan="2">FP<br><span style="font-weight:bold">틀린 검출</span></td>
+      <th class="tg-c3ow" colspan="2">TN<br><span style="font-weight:bold">검출되지 말아야 할 것이</span><br><span style="font-weight:bold">검출되지 않음</span></td>
     </tr>
   </tbody>
-  </center>
 </table>
 
 #
