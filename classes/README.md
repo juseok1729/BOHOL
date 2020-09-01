@@ -1,20 +1,27 @@
 # classes
-<p align="center">
+
+<p align="left">
   <img src="/classes/0.jpg" width="80"/>
   <img src="/classes/1.jpg" width="80"/>
   <img src="/classes/2.jpg" width="80"/>
   <img src="/classes/3.jpg" width="80"/>
+</p>
+
+<p align="left">
   <img src="/classes/4.jpg" width="80"/>
   <img src="/classes/5.jpg" width="80"/>
   <img src="/classes/6.jpg" width="80"/>
   <img src="/classes/7.jpg" width="80"/>
 </p>
 
-<p align="center">
+<p align="left">
   <img src="/classes/8.jpg" width="80"/>
   <img src="/classes/9.jpg" width="80"/>
   <img src="/classes/10.jpg" width="80"/>
   <img src="/classes/11.jpg" width="80"/>
+</p>
+
+<p align="left">
   <img src="/classes/12.jpg" width="80"/>
   <img src="/classes/13.jpg" width="80"/>
   <img src="/classes/14.jpg" width="80"/>
