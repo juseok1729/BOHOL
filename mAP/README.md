@@ -29,7 +29,8 @@ IOU Threshold는 Yolo의 경우 0.45인데
 Confidence Threshold(= score threshold) 가 변하면 Recall 과 Precision 이 크게 변한다.  
 score threshold = 0.1 인 경우, 영상 전체에서 후보 박스가 가득 나타나게 된다.  
 score threshold = 0.99 인 경우, 오브젝트가 있는게 확실한 후보만 남는다.  
-
+#
+## 결과
 **score threshold 가 크면 총 후보의 수가 줄어들고 확실한 후보만 남는다.**  
 후보의 수가 줄어들었으므로 성능면에서 Recall은 낮아지며, 확실한 후보들은 정답일 확률이 높으므로 Precision 이 높아진다.  
 
