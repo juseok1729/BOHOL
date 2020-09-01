@@ -1,4 +1,4 @@
-# classes
+# Classes
 
 <p align="left">
   <img src="/classes/0.jpg" width="80"/>
