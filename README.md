@@ -1,6 +1,9 @@
-# Custom-YOLOv5
+# Custom-YOLO
 #BOHOL #Philippines #Scuba diving #Sea ecology #App #Flask
 <p align="center"><img src="/detection/1.gif" width="600"\></p>
+
+## My Custom weights
+Download : https://drive.google.com/file/d/1-L5U2JCJG73HMfHJNIBsK9123N1yaHqf/view
 
 ## Classes = 16
 
