@@ -1,4 +1,4 @@
-# Custom-YOLO
+# Custom-YOLO with Tensorflow 2.x
 #BOHOL #Philippines #Scuba diving #Sea ecology #App #Flask
 <p align="center"><img src="/detection/1.gif" width="600"\></p>
 
