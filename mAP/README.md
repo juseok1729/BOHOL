@@ -1,15 +1,29 @@
 # mAP(mean Average Precision) 이란?
 Object detection 에서는 모델의 성능(정확도)을 주로 [mean Average Precision(mAP)](https://github.com/Cartucho/mAP)를 통해 확인한다.  
-**∴mAP가 놓을수록 정확하고, 작을수록 부정확하다.**
+**∴mAP가 놓을수록 정확하고, 작을수록 부정확하다.**  
+
+# PR곡선(Precision-Recall)
+confidence level : 검출한 것에 대해 알고리즘이 얼마나 확신이 있는지를 알려주는 값이다.  
+PR곡선 : confidence level에 대한 threshold 값의 변화에 의한 값으로 그린 곡선입니다.  
+threshold(임계값)을 confidence 레벨에 맞춰 낮춰가면 각각의 Precision 과 Recall 이 계산될것이다.  
+계산된 Precision을 y축으로 Recall을 x축으로 하여 그래프를 그린것이 **PR곡선** 이다.  
+
+# AP(Average Precision)
+**PR 곡선 아래 면적** 으로 계산한 값으로써 단 하나의 숫자로 성능 표현이 가능하다.  
+그리고 객체 클래스가 여러 개인 경우 각 클래스당 AP를 구한 다음 모두 합해서 물체의 갯수로 나눠준것이 **mAP** 이다.  
+
 
 ## **Precision (정밀도)**
 - 모든 검출 결과 중 옳게 검출한 비율
 - Precision은 모델의 출력이 얼마나 정확한지를 측정하는 것
 - 즉, 모델이 예측한 결과의 Positive 결과가 얼마나 정확한지를 나타내는 값
+ex) 옳게 검출된 사람 수/검출된 사람 수 = Precision
 
 ## **Recall (재현율)**
 - 검출해내야하는 물체들 중에서 제대로 검출된 것의 비율
 - Recall은 모델의 출력이 얼마나 Positive 값들을 잘 찾는지를 측정하는 것
+ex) 옳게 검출된 사람 수/실제 사람 수 = Recall  
+
 #
 ## **Precision과 Recall의 수학적 정의**
 <table class="tg">
